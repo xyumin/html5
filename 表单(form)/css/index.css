@@ -1,0 +1,111 @@
+body,div,form,input,p,label,textarea,img {
+	margin:0;
+	padding:0;
+}
+img {
+	border:none;
+}
+input,textarea {
+	outline: none;
+}
+textarea {
+  resize:none;
+}
+body {
+	margin-top:103px;
+	background: url(../img/bg.png);
+	background-size: cover;
+	font-family: "宋体";
+	font-size: 14px;
+	color:#000;
+}
+form {
+	width:296px;
+	height:412px;
+	margin:0 auto;
+	background: #fff url("../img/form_bg.png") no-repeat right bottom;
+	padding:43px 63px 45px 51px;
+
+}
+label {
+	display: inline-block;
+	width:66px;
+	height:40px;
+	line-height: 40px;
+	color:#8f8f8f;
+	text-align: right;
+	vertical-align: middle;
+}
+.message_label {
+	vertical-align: top;
+}
+input {
+	outline: none;
+	margin-bottom: 20px;
+}
+.input_box {
+	width:228px;
+	height:38px;
+	line-height: 38px;
+	border:1px solid #c9c9c9;
+	text-indent: 13px;
+}
+#pwd.input_box {
+	border-color: #e7788d;
+}
+#message.input_box {
+	height:78px;
+}
+.error {
+	display:block;
+	position: relative;
+	left:66px;
+	top:-20px;
+	width:230px;
+	height:36px;
+	line-height: 36px;
+	font-size: 12px;
+	color:#e7788d;
+	background-color: #fdf1f3;
+	text-indent: 16px;
+}
+.radio_hidden ,.checkbox_hidden{
+	display: none;
+}
+.hidden_input {
+	width:80px;
+	height:20px;
+	line-height: 20px;
+	color:#000;
+	text-align: center;
+	margin-right: 35px;
+	background: url("../img/radio_not_checked.png") no-repeat;
+}
+.radio_not_checked {
+	background:url(../img/radio_not_checked.png) no-repeat;
+}
+.radio_checked {
+	background:url(../img/radio_checked.png) no-repeat;
+}
+.input_checkbox {
+	width:65px;
+	height:32px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #f9f9f9;
+	color:#000;
+	margin-right: 10px;
+}
+.last {
+	margin-left: 66px;
+	margin-top:36px;
+}
+.submit_input {
+	width:180px;
+	height:44px;
+	line-height: 44px;
+	color:#fff;
+	background-color: #e7788d;
+	border:none;
+	margin-bottom: 0;
+}

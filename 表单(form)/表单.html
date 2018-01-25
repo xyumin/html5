@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单练习</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<form action="" method="post">
+		<p><label for="username">用户名：</label><input type="text" name="username" id="username" value="" class="input_box" /></p>
+		<p><label for="pwd">密码：</label><input type="password" name="pwd" id="pwd" value="666666" class="input_box" /><div class="error">密码要8——12位数字或字母组合</div></p>
+		<p><label for="message" class="message_label">留言：</label><textarea name="message" class="input_box" id="message">人生在于折腾</textarea></p>
+		<p><label for="sex">性别：</label><input type="radio" name="sex" value="男" class="radio_hidden" id="men" /><label for="men" class="hidden_input radio_not_checked " >男</label><input type="radio" name="sex" value="女" class="radio_hidden" id="women"  checked="checked"/><label for="women" class="hidden_input radio_checked">女</label></p>
+		<p><label for="hobby">爱好：</label><input type="checkbox" name="hobby" value="打球" class="checkbox_hidden" id="play_ball"><label for="play_ball" class="input_checkbox">打球</label><input type="checkbox" name="hobby" value="唱歌" class="checkbox_hidden" id="sing"><label for="sing" class="input_checkbox">唱歌</label><input type="checkbox" name="hobby" value="睡觉" class="checkbox_hidden" id="sleep"><label for="sleep" class="input_checkbox">睡觉</label></p>
+		<p class="last"><input type="submit" name="submit" value="提交" class="submit_input" /></p>
+	</form>
+
+</body>
+</html>

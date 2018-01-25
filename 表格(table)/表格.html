@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表格练习</title>
+	<style>
+		* {
+			margin:0;
+			padding:0;
+		}
+		body {
+			background-color: #ebeff7;
+		}
+		table {
+			border-collapse: collapse;
+			margin:100px 0 0 200px;
+		}
+		table,th,td {
+			border:1px solid #99b0da;
+		}
+		th,td {
+			width:76px;
+			height:28px;
+		}
+		th {
+			font-size: 14px;
+			color:#000;
+			background-color: #dbe3fa;
+		}
+		td {
+			text-align: center;
+			font-size: 12px;
+			background-color: #fff;
+		}
+		td img {
+			vertical-align: middle;
+		}
+		.date {
+			color:#cc0000;
+		}
+		.high_temperature {
+			color:#e54600;
+		}
+		.low_temperature {
+			color:#000065;
+		}
+		.time {
+			background-color: #f4f7fc;
+		}
+		.gaps {
+			height: 4px;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th colspan="2">日期</th>
+				<th colspan="2">天气现象</th>
+				<th>气温</th>
+				<th>风向</th>
+				<th>风力</th>
+			</tr>
+			<tbody>
+				<tr>
+					<td rowspan="2" class="time">22日星期五</td>
+					<td class="time">白天</td>
+					<td><img src="img/表单表格练习/weather1.png" alt="晴间多云"></td>
+					<td>晴间多云</td>
+					<td class="high_temperature">高温7°C</td>
+					<td>无持续风向</td>
+					<td>微风</td>
+				</tr>
+				
+				<tr>
+					<td class="time">夜间</td>
+					<td><img src="img/表单表格练习/weather2.png" alt="晴"></td>
+					<td>晴</td>
+					<td class="low_temperature">低温-4°C</td>
+					<td>无持续风向</td>
+					<td>微风</td>
+				</tr>
+				<tr class="gaps"></tr>
+				<tr>
+					<td rowspan="2" class="date time">23日星期六</td>
+					<td class="time">白天</td>
+					<td><img src="img/表单表格练习/weather3.png" alt="晴"></td>
+					<td>晴</td>
+					<td class="high_temperature">高温9°C</td>
+					<td>无持续风向</td>
+					<td>微风</td>
+				</tr>
+				<tr>
+					<td class="time">夜间</td>
+					<td><img src="img/表单表格练习/weather4.png" alt="阴"></td>
+					<td>阴</td>
+					<td class="low_temperature">低温-2°C</td>
+					<td>无持续风向</td>
+					<td>微风</td>
+				</tr>
+			</tbody>
+		</thead>
+	</table>
+</body>
+</html>

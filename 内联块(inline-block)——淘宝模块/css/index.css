@@ -1,0 +1,86 @@
+body,div,ul,li,h4,p,img {
+	margin: 0;
+	padding: 0;
+}
+* {
+	font-size: 12px;
+	color:#3c3c3c;
+}
+ul {
+	list-style: none;
+	width:1192px;
+	margin: 0 auto;
+	border:1px solid #e8e8e8;
+	border-right: none;
+	font-size: 0;
+	margin-top: 10px;
+}
+ul li {
+	display: inline-block;
+	padding:13px 14px 16px 13px;
+	border-right: 1px solid #e8e8e8;
+}
+.title {
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+	margin-bottom: 12px;
+}
+.title img {
+	margin-left: 5px;
+}
+.model_1 {
+	background-color: #f5f5f5;
+}
+.description {
+	height:50px;
+	text-align: center;
+}
+.theme {
+	line-height: 22px;
+}
+.tip {
+	color:#9c9c9c;
+	line-height: 16px;
+}
+.model_1 {
+	margin-bottom: 14px;
+}
+.product {
+	display: inline-block;
+}
+.product p {
+	text-align: center;
+	height:33px;
+	line-height: 33px;
+}
+.product1 {
+	margin-right:9px;
+}
+.product2 {
+	margin-bottom: 10px;
+}
+.keywords {
+	line-height: 14px;
+	margin-bottom: 14px;
+	font-size: 0;
+}
+.keywords span {
+	display: inline-block;
+	border-right: 1px solid #e1e1e1;
+	padding: 0 6px;
+}
+.keywords .first {
+	padding-left:1px ;
+}
+.keywords .last {
+	padding-right:0 ;
+	border-right: none;
+}
+p .active {
+	color:#f40;
+	margin :0 8px 0 2px;
+}
+p .active .mark {
+	color: #e4e4e4;
+}

@@ -1,0 +1,124 @@
+body,div,header,img,p,footer {
+	margin:0;
+	padding: 0;
+}
+body {
+	font-family: "宋体";
+}
+.clearfix:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+.clearfix {
+	*zoom:1;
+}
+.wrap {
+	width:1000px;
+	height:607px;
+	background:url("../img/bg.png") no-repeat;
+	margin:0 auto;
+	overflow: hidden;
+}
+.container {
+	width:745px;
+	height:505px;
+	margin:52px 138px 48px 115px;
+	border:1px solid #c2c2c2;
+	background:url("../img/content_bg.png") no-repeat;
+}
+.content {
+	margin:23px 30px 26px 29px;
+}
+header {
+	background:url("../img/logo.png")  0 8px no-repeat;
+	font-size: 20px;
+	line-height: 36px;
+	padding-left: 27px;
+}
+.main {
+	margin:16px 1px 0 1px;
+}
+.left {
+	float:left;
+	width:312px;
+	margin-right: 30px;
+}
+.main img {
+	float:left;
+	border:1px solid #bfbfbf;
+	margin-top:10px;
+}
+.main p {
+	float:left;
+	margin-left: 19px;
+}
+.main p span {
+	display: block;
+	font-size: 14px;
+	line-height: 26px;
+	color:#6a6a6a;
+	padding-left: 1px;
+}
+.main p span.title {
+	color:#06b1da;
+	font-size: 16px;
+	line-height: 36px;
+	margin-bottom: 2px;
+}
+.main p span a {
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 30px;
+	width:70px;
+	height:30px;
+	margin-top:18px;
+	text-align: center;
+}
+.main .buy_btn {
+	color:#fff;
+	background:url("../img/buy.png");
+}
+.main .look_btn {
+	color:#06b1da;
+	background-color: #fff;
+	border:2px solid #06b1da;
+	width:66px;
+	height:26px;
+	margin-left: 10px;
+	line-height: 26px;
+}
+.right {
+	float:left;
+	width:312px;
+}
+footer {
+	margin:40px 0 0 2px;
+}
+footer div {
+	float: left;
+	width:128px;
+	margin-right: 54px;
+}
+.last {
+	margin-right:0;
+}
+footer img {
+	border:1px solid #bfbfbf;
+}
+footer p  {
+	margin-top:12px;
+}
+footer p span {
+	display: block;
+	font-size: 14px;
+	line-height: 26px;
+	color:#6a6a6a;
+}
+.title {
+	font-size: 16px;
+	color:#06B1DA;
+	margin-bottom: 4px;
+}
